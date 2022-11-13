@@ -89,7 +89,7 @@ class Card {
       throw new error(`Invalid suit specified. Valid values are: ${Suits.join(',') }`)
     }
     if (Faces.indexOf(face) === -1) {
-      throw new erroe (`Invalid card / face specified. Valid values are: ${Faces.join(',')}`)
+      throw new error(`Invalid card / face specified. Valid values are: ${Faces.join(',')}`)
     }
    this.suit = suit;
    this.face = face;
